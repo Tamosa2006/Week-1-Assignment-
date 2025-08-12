@@ -1,0 +1,17 @@
+arr= []
+n= int(input("Enter the length of the array:"))
+for i in range (n):
+    val= int(input("Enter array element: "))
+    arr.append(val)
+
+s=0
+
+for i in range (n-1):
+    if arr[i]<arr[i+1]:
+        s=s+0
+    else:
+        s=s+1
+if (s<1):
+    print ("Array is sorted! (ascending)")
+else:
+    print("Array is not sorted!")
