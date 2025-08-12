@@ -1,0 +1,4 @@
+str= input("Enter a string:")
+for i in (str):
+    rev= str[::-1]
+print(rev)
