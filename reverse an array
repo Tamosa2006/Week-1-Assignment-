@@ -1,0 +1,8 @@
+arr= []
+n= int(input("Enter the length of the array:"))
+for i in range (n):
+    val= int(input("Enter array element: "))
+    arr.append(val)
+
+print(arr[::-1])
+
